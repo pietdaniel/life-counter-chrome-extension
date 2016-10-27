@@ -1,0 +1,14 @@
+{
+  "name": "New Tab Life Counter",
+  "description": "Override the new tab page with a life counter",
+  "version": "0.2",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}
