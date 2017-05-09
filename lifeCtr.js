@@ -1,4 +1,5 @@
-var bDay = new Date(1990, 05, 21).getTime();
+// Month is 0 index
+var bDay = new Date(1990, 4, 21, 12, 12).getTime();
 var msInYear = 31536000000;
 var precision = 1000000000;
 
@@ -51,7 +52,6 @@ function getRandomBackground() {
     "https://p931z2nb6eo1jytzj2ufrzyoiz-wpengine.netdna-ssl.com/arts/wp-content/uploads/sites/2/2015/08/TurnerCover-1920x1080.jpg",
     "https://media.giphy.com/media/VbOmzi6vtIPWo/giphy.gif",
     "https://upload.wikimedia.org/wikipedia/en/archive/2/2e/20100414210212!La_danse_(I)_by_Matisse.jpg",
-    "https://upload.wikimedia.org/wikipedia/en/archive/2/2e/20100414210212!La_danse_(I)_by_Matisse.jpg",
     "http://www.picgifs.com/wallpapers/wallpapers/van-gogh/wallpaper_van-gogh_animaatjes-26.jpg",
     "https://s-media-cache-ak0.pinimg.com/originals/0c/69/b2/0c69b222d530ec8d598212e48b02c711.jpg",
     "https://cdn.getyourguide.com/niwziy2l9cvz/49phB2yvrWCESi6ioUEwAK/de9d204e3582c3d02b817202cb46552e/amsterdam-the-potato-eaters-1500x850.jpg",
@@ -69,7 +69,6 @@ function getRandomBackground() {
     "http://66.media.tumblr.com/1422736670f536694b975e7cc70df409/tumblr_nqqm1w1Y9i1qm8y12o1_1280.jpg",
     "http://agaunews.com/wp-content/uploads/2015/03/2015-KLIMT-04-FEAT.jpg",
     "https://i.ytimg.com/vi/BRUOACBkFRg/maxresdefault.jpg",
-    "https://cdn.taschen.com/custom/taschen/includes/phpThumb/phpThumb.php/q=90;f=jpg;1640;/media/images/1640/xl_klimt_opener_01108_1502041143_id_884084.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/8/84/Gustav_Klimt_046.jpg",
     "http://www.tate.org.uk/art/images/work/T/T06/T06600_10.jpg",
     "https://uploads1.wikiart.org/images/gerhard-richter/wallace-bournes.jpg",
